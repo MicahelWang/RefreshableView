@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">RefreshLayout.Droid</string>
+  <string name="hello">下拉可刷新 </string>
+  <string name="app_name">下拉刷新控件值ScrollView的刷新 ——by Nono</string>
+  <string name="refresh_down_text">下拉可刷新</string>
+  <string name="refresh_release_text">松开可刷新</string>
+  <string name="toast_text">ScrollView下拉刷新完毕</string>
+</resources>
