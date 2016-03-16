@@ -34,13 +34,12 @@ namespace RefreshLayout.Droid
                 if (_footerView == null)
                 {
 
-                    LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MatchParent, -refreshTargetTop)
+                    LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MatchParent, 60)
                     {
-                        TopMargin = refreshTargetTop,
                         Gravity = GravityFlags.Center
                     };
                     _footerView = LayoutInflater.From(mContext).Inflate(Resource.Layout.XListViewFooter, null);
-                    AddView(_footerView.RootView, lp);
+                    AddView(_footerView, lp);
                 }
                 return _footerView;
             }
